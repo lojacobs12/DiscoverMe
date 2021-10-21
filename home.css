@@ -11,8 +11,6 @@ nav{
 display: flex;
 background-color: white;
 flex-direction: column;
-text-align: center;
-align-items:center;
 justify-content: space-between;
 position: fixed;
 width: 100%;
@@ -26,7 +24,7 @@ color: navy;
 padding: 5px 10px 5px 10px;
 }
 
-nav.first>ul>li:first-of-type{
+nav>li:first-of-type{
 font-size: 130%;
 font-weight: bold;
 }
@@ -87,6 +85,7 @@ h2{
   font-size: 50px;
   line-height: 6;
 }
+
 .Menu{
   display: grid;
   grid-template-columns: auto auto auto auto}
