@@ -10,7 +10,7 @@ body{
 nav{
 display: flex;
 background-color: white;
-flex-direction: row;
+flex-direction: column;
 text-align: center;
 align-items:center;
 justify-content: space-between;
@@ -133,105 +133,11 @@ footer{
 and (min-device-width : 768px) 
 and (max-device-width : 1024px){
 
-  nav.first>ul{
-    text-align: left;
-    text-align:left;
-    justify-content: left;
-    width: auto;
-    font-size: 22px;
-    }
-    
-  header{
-      background-size: 160%;      /* Parallax effect */
-      max-height: 1024px;
-      grid-column: 1 / -1;
-      grid-row: 1 / span 1; 
-      color: white;               /* Parallax effect */
-      background-size: cover;
-      background-image: url("../imgs/microphone.png");
-      text-align: center;
-    }
-
-    header>ul{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 5px;
-    font-size: 33px;
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-  
-    h1{
-    font-size: 120px;
-    padding:150px 0px 50px 0px;
-    }
-
-    header>img{
-    max-height: 400px;
-    padding-bottom: 10px;
-    }
-
-    p{
-    font-size:20px;
-  }
-
-  h2{
-  font-size: 90px;
-  }
-
-}
 
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) {
-  nav.first>ul{
-    text-align: left;
-    text-align:left;
-    justify-content: left;
-    width: auto;
-    font-size: 20px;
-    }
-    
-  header{
-      background-size: 160%;      /* Parallax effect */
-      max-height: 1000px;
-      grid-column: 1 / -1;
-      grid-row: 1 / span 1; 
-      color: white;               /* Parallax effect */
-      background-size: cover;
-      background-image: url("../imgs/microphone.png");
-      text-align: center;
-    }
-
-    header>ul{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    grid-column-gap: 70px;
-    font-size: 33px;
-    padding-left: 50px;
-    padding-right: 50px;
-    }
-  
-  h1{
-    font-size: 100px;
-    padding:150px 0px 50px 0px;
-  }
-
-  header>img{
-    max-height: 300px;
-    padding-bottom: 10px;
-  }
-  
-p{
-  font-size:20px;
-}
-
-h2{
-  font-size: 90px;
-}
-}
-
+ 
 
 @media screen and (prefers-reduced-motion: reduce){
 html{
