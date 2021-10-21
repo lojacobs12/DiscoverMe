@@ -88,50 +88,23 @@ h2{
   line-height: 6;
 }
 .Menu{
-  display: grid;}
+  display: grid;
+  grid-template-columns: auto auto auto auto}
 
 #Body{
-grid-row: 2/span 1;
-background-image: url("../imgs/grouplyres.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-max-height: 700px;    
+grid-column: 1;   
 }
 
-p.who{
-grid-row: 3/span 1;
-grid-column: 1/ -1;
+#Consent{
+  grid-column: 2;   
 }
 
-#historyh2{
-grid-row: 4/ span 1;
-background-image: url("../imgs/priorlyres.jpg");   
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-max-height: 700px;   
+#Profile{
+  grid-column: 3;
 }
 
-div.history_pars{
-  grid-row: 5/span 1;
-  border: 5px solid navy;
-}
-div.history_pars>p{
-  border:none;
-}
-
-#thisyearh2{
-grid-row: 6/span 1;
-background-image: url("../imgs/PastYear.jpg");   
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-max-height: 700px;
-}
-
-p.thisyear{
-grid-row: 7/span 1;
+#Resources{
+  grid-column: 4;
 }
 
 p{
