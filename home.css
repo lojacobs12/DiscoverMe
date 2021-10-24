@@ -86,22 +86,6 @@ h2{
   display: grid;
   grid-template-columns: auto auto auto auto}
 
-#Body{
-grid-column: 1;   
-}
-
-#Consent{
-  grid-column: 2;   
-}
-
-#Profile{
-  grid-column: 3;
-}
-
-#Resources{
-  grid-column: 4;
-}
-
 p{
   background-color: rgba(255, 255, 255, 0.7);
   border: 5px solid navy;
