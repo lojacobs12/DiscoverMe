@@ -8,17 +8,19 @@ body{
 
 
 nav{
-display: flex;
 background-color: white;
 color: navy;
 padding: 5px 10px 5px 10px;
-flex-direction: row;
 justify-content: space-between;
 position: fixed;
 width: 100%;
 font-size: 18px;
 font-weight: bold;
 }
+
+nav>ul{
+  display: flex;
+  flex-direction: row;
 
 nav>ul>li:first-of-type{
 font-size: 130%;
