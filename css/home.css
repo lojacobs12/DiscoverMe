@@ -24,6 +24,7 @@ nav>ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
 
 nav>ul>li:first-of-type{
 font-size: 130%;
@@ -86,10 +87,6 @@ h2{
   font-size: 50px;
   line-height: 6;
 }
-
-.Menu{
-  display: grid;
-  grid-template-columns: auto auto auto auto}
 
 p{
   background-color: rgba(255, 255, 255, 0.7);
