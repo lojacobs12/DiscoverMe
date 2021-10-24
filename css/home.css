@@ -2,10 +2,13 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
+main{
+  width: 100%;
+  /*height: 400px;*/
+  background: url('imgs/kidsbackground.jpg');
+  background-size: cover;
   background-color: #88CAF0;
 }
-
 
 nav{
 background-color: white;
