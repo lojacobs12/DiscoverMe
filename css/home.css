@@ -3,7 +3,7 @@ html{
 }
 
 main{
-    background-image: url("images/kidsbackground.jpg");
+    background-image: url("../images/kidsbackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
     width: 400px;
