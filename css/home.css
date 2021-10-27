@@ -2,12 +2,20 @@ html{
   scroll-behavior: smooth;
 }
 
-main{
-  width: 100%;
+main>img{
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  
+  /*width: 100%;
   height: 400px;
   background-image: url(images/kidsbackground.jpg);
   background-size: cover;
-  background-color: #88CAF0;
+  background-color: #88CAF0;*/
 }
 
 nav{
