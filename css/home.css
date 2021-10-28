@@ -2,7 +2,12 @@ html{
   scroll-behavior: smooth;
 }
 
-main{
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body{
     background-image: url("../images/kidsbackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -10,11 +15,12 @@ main{
   top: 0; 
   left: 0;
   background-color: #88CAF0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
-background-color: white;
-color: navy;
+background-color: #95d8f9;
+color: black;
 padding: 5px 10px 5px 10px;
 position: fixed;
 width: 100%;
@@ -23,6 +29,7 @@ font-weight: bold;
 }
 
 nav>ul{
+  padding: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,12 +41,12 @@ font-weight: bold;
 }
 
 a:-webkit-any-link {
-  color: navy;
+  color: black;
   text-decoration: none;
 }
 
 a:hover{
-  text-shadow: 2px 2px 5px navy;
+  text-shadow: 2px 2px 5px gold;
 }
 
 .skip a{
@@ -67,6 +74,7 @@ header{
 }
 
 header>img{
+  padding-top: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -98,18 +106,21 @@ h2{
 }
 
 p{
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 5px solid navy;
   padding: 10px;
   margin: auto;
   text-align: justify;
   text-indent: 30px;
+  font-size: 18px;
+}
+
+.maintext p{
+  text-align: center;
 }
 
 footer p{
-  background-color: navy;
-  color: white;
-  padding: 10px;
+  background-color: #95d8f9;
+  color: black;
+  padding: 20px;
   text-align: center;
   text-indent: 0px;
 }
