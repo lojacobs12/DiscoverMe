@@ -77,10 +77,11 @@ header>img{
   margin-right: auto;
   width: 60%;
 }
-button{
+.button a{
     background-color: #FFFFFF;
     color: #000000;
     padding:20px 50px;
+    width: 40%;
     border-radius: 14px;
     border: none;
     font-size: 25px;
