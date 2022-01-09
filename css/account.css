@@ -59,10 +59,7 @@ nav img{
   color: #88CAF0;
 }
 
-body{
-  background-image: url("../images/homepage.png");
-  background-size: cover;
-}
+
 
 h1{
   font-size: 18px;
@@ -74,10 +71,10 @@ h1{
 .account{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   min-height: 100px;
-  padding: 10px;
-  margin: 20px;
+  padding: 40px;
+  margin: 10px;
 }
 
 .create{
