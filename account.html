@@ -29,15 +29,21 @@
 
 
         <main id="main">
-            <div class="container_menu" role="region">
+            <div class="account" role="region">
 
                 <div class="Create Account">
                     <h1>Create New Account</h1>
                     <div class="create">
                         <form action="#PUTLINKHERE" method="POST">
-                            <input type="text"  name="username" required/>
-                            <input type="password" name="password" required/>
-                            <input type="submit" value="create"/>
+                            <fieldset>
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" required>
+        
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required>
+                            
+                                <button type="submit">Create</button>
+                            </fieldset>
                         </form>
                     </div>
         
@@ -45,12 +51,18 @@
             
 
                 <div class="Login">
-			<h1>Login</h1>
+                    <h1>Login</h1>
                     <div class="create">
                         <form action="#PUTLINKHERE" method="POST">
-                            <input type="text"  name="username" required/>
-                            <input type="password" name="password" required/>
-                            <input type="submit" value="login"/>
+                            <fieldset>
+                                <label for="username">Username:</label>
+                                <input type="text" id="username" name="username" required>
+        
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password" required>
+                            
+                                <button type="submit">Login</button>
+                            </fieldset>
                         </form>
                     </div>
                 </div>
