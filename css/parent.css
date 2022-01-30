@@ -68,6 +68,15 @@ h1{
   text-align: center;
 }
 
+p{
+    font-size: 18px;
+    
+}
+
+h3{
+    font-size: 36px;
+}
+
 /* Style the tab */
 .tab {
     overflow: hidden;
