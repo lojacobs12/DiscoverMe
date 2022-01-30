@@ -24,6 +24,45 @@
           </ul>
       </nav>
   </header>
+
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Mission')">Mission</button>
+    <button class="tablinks" onclick="openCity(event, 'Why')">Why</button>
+    <button class="tablinks" onclick="openCity(event, 'Forward')">Moving Forward</button>
+    <button class="tablinks" onclick="openCity(event, 'Resources')">Resources</button>
+  </div>
+
+  <div id="Mission" class="tabcontent">
+    <h3>Mission</h3>
+    <p>We seek to create a game-based website to teach young children with physical disabilities about their growing bodies, body autonomy, consent, and the concept of sexual assault. </p>
+    <br><br>
+    <p>Pillars:
+        <ul>
+            <li>Knowledge of anatomy</li>
+            <li>Public vs. private spaces and body parts</li>
+            <li>Healthy relationships/body positivity</li>
+        </ul> 
+    </p>
+  </div>
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
+
+
   </body>
   
   
