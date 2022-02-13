@@ -63,6 +63,28 @@ body{
   background-image: url("../images/homepage.png");
   background-size: cover;
 }
+buttons{
+  margin: 0;
+  height: 100%;
+  position: relative; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.button{
+  padding: 10px;
+}
+
+.button a{
+  background-color: #FFFFFF;
+  color: #000000;
+  padding:10px 20px;
+  width: fit-content;
+  border-radius: 14px;
+  border: none;
+display: block;
+text-align: center;
+} 
 
 }
