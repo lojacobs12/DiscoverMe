@@ -63,7 +63,7 @@ body{
   background-image: url("../images/homepage.png");
   background-size: cover;
 }
-buttons{
+.buttons{
   margin: 0;
   height: 100%;
   position: relative; 
