@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<body lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href= "images/logo-icon.jpg">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/salon.css">
+    <script type="text/javascript" src="../home.js"></script>
+  </head>
+<header>
+  <a href="home.html"><button>Done! Back to Village</button></a>
+</header>
+<iframe src="https://scratch.mit.edu/projects/641855826/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+</body>
+</html>
