@@ -26,6 +26,7 @@ a {
 nav img{
   width: 40%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -60,8 +61,12 @@ nav img{
 }
 
 body{
-  background-image:url("images/background.jpg"); background-attachment: fixed; background-position: center; background-repeat: no-repeat;
+  background-image:url("images/background.jpg"); 
+  background-attachment: fixed; 
+  background-position: center; 
+ background-repeat: no-repeat;
 }
+
 .buttons{
   margin: 0;
   height: 100%;
