@@ -73,13 +73,16 @@ body{
 }
 
 .buttons{
-  margin: 0;
-  height: 100%;
-  position: relative; 
+  margin: auto;
+  position: fixed;
+  padding-right: 9%;
+  padding-left: 9%;
+  width: 100%; 
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15%;
+  flex-direction: row;
+  bottom: 25%;
 }
 
 .button{
