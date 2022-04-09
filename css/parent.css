@@ -82,9 +82,12 @@ h3{
 }
 
 ol{
-	text-indent: 45px;
 	font-size: 20px;
 }
+
+#Resources a{
+	font-size 20px;
+	
 
 /* Style the tab */
 .tab {
